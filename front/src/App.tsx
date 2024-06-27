@@ -62,8 +62,8 @@ function App() {
   return (
   <CounterProvider>
     <Header/>
-    {/* <Content />    */}
-    <Counter/>
+    <Content />   
+    {/* <Counter/> */}
     <Footer/>
     
   </CounterProvider>

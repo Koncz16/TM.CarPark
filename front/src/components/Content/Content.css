@@ -1,0 +1,43 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add spacing between elements */
+}
+
+.search-bar {
+    display:block;
+    align-items: center;
+    padding: 1em;
+}
+
+.clear-filters {
+    margin-left: auto; /* Pushes the Clear Filters button to the right */
+}
+
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.filter-form > * {
+    width: 5em; /* Fix méretű elemek */
+}
+
+.filter-form select {
+    width: 10em; /* Select elemek is fix méretűek legyenek */
+}
+
+.filter-form input[type="number"] {
+    width: 10em; /* Szám típusú inputok fix méretűek */
+}
+
+.filter-form input[type="text"] {
+    width: 10em; /* Szöveges inputok is fix méretűek */
+}
+
+.clear-filters {
+    margin-left: auto; /* Pushes the Clear Filters button to the right */
+}
+
+
+/* Additional styling for input fields, select elements, and button can be added here */

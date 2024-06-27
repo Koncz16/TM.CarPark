@@ -33,7 +33,7 @@ export default function CarItem({car}:Props) {
             <div className="details">
                 <div className="row"><div className="label">Manufacturer: </div> {car.manufacturer}</div>
                 <div className="row"><div className="label">Model: </div> {car.model}</div>
-                <div className="row"><div className="label">Constuction Year: </div> {car.constuctionYear}</div>
+                <div className="row"><div className="label">Constuction Year: </div> {car.constructionYear}</div>
                 <div className="row"><div className="label">Fuel Type: </div> {car.fuelType}</div>
                 <div className="row"><div className="label">Horse Power: </div> {car.power}</div>
                 <div className="row"><div className="label">Engine Size: </div> {car.engineSize}</div>

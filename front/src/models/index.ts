@@ -3,7 +3,7 @@ export type Car = {
     image: string
     manufacturer: string
     model: string
-    constuctionYear: string
+    constructionYear: string
     mileage: string
     engineSize: string
     power: string
