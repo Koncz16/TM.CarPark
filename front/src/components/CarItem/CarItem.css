@@ -1,0 +1,45 @@
+.carImage {
+height: 15em;
+}
+
+.carItem{
+display: flex;
+border: 1px solid black;
+margin: 1em;
+padding: 1em;
+border-radius: .5em;
+justify-content: space-between;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    max-width: 30rem;
+}
+
+.price{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.list{
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+}
+
+.details{
+    margin-left: 1em;
+}
+
+.coloredLabel{
+    color: green;
+}
+
+.button{
+    height: 2em;
+}
