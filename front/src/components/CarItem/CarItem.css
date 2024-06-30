@@ -1,45 +1,103 @@
+.carItem {
+  display: flex;
+  border: 1px solid black;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+}
+
 .carImage {
-height: 15em;
+  height: auto;
+  width: 20em;
 }
 
-.carItem{
-display: flex;
-border: 1px solid black;
-margin: 1em;
-padding: 1em;
-border-radius: .5em;
-justify-content: space-between;
+.details {
+  margin-left: 1em;
+  flex: 1;
 }
 
-.label{
-    font-weight: bold;
+.label {
+  font-weight: bold;
 }
 
-.row{
-    display: flex;
-    max-width: 30rem;
+.coloredLabel {
+  color: green;
+  font-weight: bold;
 }
 
-.price{
-    font-size: large;
-    font-weight: bold;
+.row {
+  display: flex;
+  max-width: 30rem;
+  flex-wrap: wrap;
 }
 
-
-.list{
-        display: flex;
-        gap: 1em;
-        flex-wrap: wrap;
+.list {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 
-.details{
-    margin-left: 1em;
+.price {
+  font-size: large;
+  font-weight: bold;
 }
 
-.coloredLabel{
-    color: green;
+.button-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.button{
-    height: 2em;
+.button-container {
+  width: 100%;
+}
+
+.button {
+  height: 2em;
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.favorite-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-checkbox input {
+  margin-right: 0.5em;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.basket-button {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #ccc;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
 }

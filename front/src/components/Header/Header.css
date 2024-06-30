@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo a, .nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover, .nav-item a:hover {
+    text-decoration: underline;
+}
+
+.logo a:visited, .nav-item a:visited {
+    color: white; 
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}

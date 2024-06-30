@@ -1,0 +1,101 @@
+.basket-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.car-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.car-item {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
+  border-radius: 0.5em;
+  background-color: #f0f0f0;
+}
+
+.car-image {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.car-details {
+  flex: 1;
+}
+
+.car-details div {
+  text-align: left;
+}
+
+.car-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.car-details p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.quantity-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.quantity-button {
+  padding: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-right: 1em;
+  width: 2em;
+}
+
+.quantity {
+  margin: 1em;
+  font-size: 1.1rem;
+}
+
+.item-total {
+  position: absolute;
+  margin-right: 1em;
+  bottom: 10px;
+  right: 0;
+  font-size: 0.9rem;
+}
+
+.remove-button {
+  margin-left: auto;
+  padding: 8px 16px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #e04e32;
+}
+
+.basket-total {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: right;
+  font-size: 1.1rem;
+}
+
+.basket-total span {
+  font-weight: bold;
+}

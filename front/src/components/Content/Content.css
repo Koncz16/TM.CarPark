@@ -1,43 +1,108 @@
-.content-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px; /* Add spacing between elements */
+/* Content.css */
+
+.carsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-item {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car-image {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.car-details {
+  flex: 1;
+}
+
+.car-details div {
+  text-align: left;
+}
+
+.car-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.car-details p {
+  margin: 5px 0;
+  font-size: 0.9rem;
 }
 
 .search-bar {
-    display:block;
-    align-items: center;
-    padding: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.clear-filters {
-    margin-left: auto; /* Pushes the Clear Filters button to the right */
+.search-bar input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .filter-form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-}
-.filter-form > * {
-    width: 5em; /* Fix méretű elemek */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-.filter-form select {
-    width: 10em; /* Select elemek is fix méretűek legyenek */
-}
-
-.filter-form input[type="number"] {
-    width: 10em; /* Szám típusú inputok fix méretűek */
-}
-
-.filter-form input[type="text"] {
-    width: 10em; /* Szöveges inputok is fix méretűek */
+.filter-form select,
+.filter-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .clear-filters {
-    margin-left: auto; /* Pushes the Clear Filters button to the right */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.clear-filters button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-/* Additional styling for input fields, select elements, and button can be added here */
+.clear-filters button:hover {
+  background-color: #0056b3;
+}
+
+.sort-form {
+  margin-bottom: 20px;
+}
+
+.sort-form select {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.carsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
